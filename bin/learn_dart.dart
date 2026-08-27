@@ -1,5 +1,7 @@
 
 
+import 'dart:io';
+
 void main(){
 
    // variables
@@ -55,6 +57,111 @@ print(a/b) ;
 print(a~/b) ; //3.3 ==> 3
 print(a%b); 
 
+
+
+
+// increment  /// decrement  
+
+
+
+int c = 2 ; 
+
+c++;
+c--;
+
+c+=4 ; 
+c-=4 ; 
+
+c*=6 ; 
+c~/=5 ;  
+
+print (c) ; 
+
+
+
+// logical operation 
+
+
+int number1  = 10 ; 
+
+int number2  = 20 ; 
+
+
+//Equal 
+print(number2==number1); // false
+print(number2 != number1); // true
+print(number2 > number1); // true
+print(number2 < number1); //false
+print(number2 >= number1); //true
+print(number2 <= number1); // false
+
+
+
+
+//user input 
+// print("enter your age") ; 
+// String? ageformUesr = stdin.readLineSync(); 
+
+
+
+// print(ageformUesr); 
+
+
+
+// String Methods 
+
+
+// String? UserName = stdin.readLineSync(); 
+
+
+//length 
+
+// if(UserName!.length > 20){
+//   print(
+//     "the user name  cann't exceed 20 characters"
+//   );
+// }
+// else{
+//   print("your username  is correctr ") ; 
+// }
+
+
+//to Upper case 
+
+// String? UserName2 = stdin.readLineSync(); 
+ 
+// String db = "YAMEN" ; 
+
+
+
+// if(UserName2!.toUpperCase() == db  ) { // or UserName2!.toLowerCase()
+//   print("you are yamen") ; 
+// }
+
+// else{
+//   print("you arn't yamen"); 
+// }
+
+
+
+
+
+String text = "      hello,welcom                  " ; 
+String emptyString = "";
+print (text.trim()) ; // without whitespace
+
+print(text.contains("hello")); // true
+
+
+print(text.startsWith("h")); 
+print(text.endsWith("h")); 
+
+print(emptyString.isEmpty);//true
+print(emptyString.isNotEmpty);//false
+
+
+
+print(text.replaceAll("e", ""));
 
 
 
